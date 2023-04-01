@@ -1,6 +1,6 @@
 import pygame
 import time
-e = 1
+
 #making a purple window
 pygame.init()
 screen = pygame.display.set_mode((1920, 1080), pygame.RESIZABLE)
