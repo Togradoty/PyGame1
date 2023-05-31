@@ -22,13 +22,7 @@ while running:
     #clears screen and fills with purple
     screen.fill("purple")
 
-    if event.type == pygame.KEYDOWN:
-        
-        if event.key == pygame.K_ESCAPE:
-            pygame.draw.rect(Surface, white)
-        
-        #if event.key == pygame.K_q or event.key == pygame.K_ESCAPE:
-            #running = False
+
 
     pygame.display.flip()
     clock.tick(24) #limits fps to 24
